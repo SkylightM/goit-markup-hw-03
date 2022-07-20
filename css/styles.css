@@ -36,7 +36,6 @@ body {
     color: var(--black-color);
     margin: 0;
     padding: 0;
-    width: 1600px;
 }
 
 .link:hover {
@@ -262,6 +261,9 @@ figure>figcaption>.title {
 .header-mail{
     padding-right: 50px;
 }
+#main-section{
+    padding: 0;
+}
 .main-section{
     display: flex;
     flex-direction: column;
@@ -270,8 +272,6 @@ figure>figcaption>.title {
     padding-bottom: 200px;
     background-color: var(--background-black);
     width: 1600px;
-    margin-top: -94px;
-    margin-bottom: -94px;
 }
 .section{
     padding-top: 94px;
@@ -282,13 +282,15 @@ figure>figcaption>.title {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin-bottom: -94px;
+}
+#second-section{
+    padding: 0;
+    padding-bottom: 94px;
 }
 .second-section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: -94px;
 }
 .main-images{
     display: flex;
@@ -301,7 +303,7 @@ figure>figcaption>.title {
 }
 .team-cards{
     display: flex;
-    gap:30px;
+    gap: 30px;
 }
 .team-card{
     display: flex;
@@ -346,15 +348,17 @@ figure>figcaption>.title {
     gap: 30px;
     flex-basis: calc((100% - 60px) / 3);
 }
-.filter-buttons-section{
-    margin-bottom: -94px;
+#filter-buttons-section{
+    padding:0;
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
-.images-portfolio-section{
-    margin-top: -94px;
+#images-portfolio-section{
+    padding: 0;
+    padding-bottom: 94px;
 }
 .image-description{
     border: 1px solid #EEEEEE;
     border-top: 0;
-    padding: 20px;
-    
+    padding: 20px;   
 }
